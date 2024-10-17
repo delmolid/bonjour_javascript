@@ -1,6 +1,7 @@
 function sayHello (firstname,hour) {
-let message = "Bonjour !"
-message = "Bonjour" + " " + firstname + " " + "!";
+let sayName =prompt(firstname)
+let message = "Bonjour !" 
+message = "Bonjour" + " " + sayName + " " + "!";
 document.querySelector('h1').innerText = message;
  // if (hour >= 18){
  //  console.log("Bonsoir" + " " + firstname + " !")  
@@ -9,5 +10,4 @@ document.querySelector('h1').innerText = message;
 // console.log(message)
 // }
 }
-sayHello("Beyonce")
-salut 
+sayHello("")
